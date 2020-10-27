@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_accent_secondary">#D50000</color>
+
+    <color name="color_text">#000000</color>
+    <color name="color_text_night">#FFFFFF</color>
+
+    <color name="color_gray_dark">#303030</color>
+    <color name="color_gray_light">#A1A1A1</color>
+
+    <color name="color_accent">#FC4C4C</color>
+    <color name="color_accent_night">#FFAB00</color>
+
+    <color name="color_icon">#616161</color>
+    <color name="color_icon_night">#FFFFFF</color>
+
+    <color name="color_primary">#000000</color>
+    <color name="color_primary_night">#303030</color>
+
+    <color name="color_primary_dark">#082132</color>
+
+
+
+
+
+
+</resources>
