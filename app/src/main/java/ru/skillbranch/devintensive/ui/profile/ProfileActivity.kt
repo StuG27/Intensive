@@ -95,6 +95,10 @@ class ProfileActivity : AppCompatActivity(){
         }
     }
 
+    private fun theme(mode: Int) : Int{
+        return mode
+    }
+
     private fun showCurrentMode(isEdit: Boolean) {
         val info = viewFields.filter { setOf("firstName", "lastName", "repository", "about").contains(it.key) }
         for((_,v) in info){
@@ -107,6 +111,7 @@ class ProfileActivity : AppCompatActivity(){
 
         iv_eye.visibility = if(isEdit) View.GONE else View.VISIBLE
         wr_about.isCounterEnabled = isEdit
+
 
         with(btn_edit){
             val filter: ColorFilter? = if(isEdit){
